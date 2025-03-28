@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podróże</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Witaj w Świecie Podróży!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">O mnie</a></li>
+                <li><a href="#destinations">Destynacje</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>O mnie</h2>
+        <p>Jestem pasjonatem podróży i odkrywania nowych miejsc na świecie. Moje podróże to połączenie przygody, kultury i natury. W tej stronie podzielę się moimi doświadczeniami oraz inspiracjami do podróży.</p>
+    </section>
+
+    <section id="destinations">
+        <h2>Popularne Destynacje</h2>
+        <div class="destination">
+            <h3>Paris</h3>
+            <img src="https://via.placeholder.com/300x200" alt="Paris">
+            <p>Miasto miłości, które każdy powinien odwiedzić przynajmniej raz w życiu.</p>
+        </div>
+        <div class="destination">
+            <h3>Tokyo</h3>
+            <img src="https://via.placeholder.com/300x200" alt="Tokyo">
+            <p>Nowoczesne miasto, które łączy tradycję z technologią.</p>
+        </div>
+        <div class="destination">
+            <h3>New York</h3>
+            <img src="https://via.placeholder.com/300x200" alt="New York">
+            <p>Jedno z najbardziej ekscytujących miast na świecie. Niezliczone atrakcje i kultura.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Chcesz podzielić się swoimi podróżami lub masz pytania? Skontaktuj się ze mną!</p>
+        <form>
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Podróże. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+    <script src="./main.js"></script>
+    <script src="./sw.js"></script>
+</body>
+</html>
